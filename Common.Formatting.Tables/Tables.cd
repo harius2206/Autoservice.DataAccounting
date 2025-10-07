@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Common.Formatting.Tables.Customizable.LineCharSet">
+    <Position X="0.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAQA=</HashCode>
+      <FileName>Customizable\LineCharSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.Bordered.BorderCharSets">
+    <Position X="15.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAQAAAAAAGAAAACAQAEAAAAAAEAAAA=</HashCode>
+      <FileName>Bordered\BorderCharSets.cs</FileName>
+      <NewMemberFileName>Bordered\BorderCharSet.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.BorderStylesInfo">
+    <Position X="2.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAABAAAAAAAAAAIAAAAAAAIAAAAAgAAAAIAA=</HashCode>
+      <FileName>BorderStylesInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.Bordered.BorderedTableCreation">
+    <Position X="8.75" Y="4.75" Width="9.75" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAgEAAA=</HashCode>
+      <FileName>Bordered\BorderedTableCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.Customizable.CustomizableTableCreation">
+    <Position X="6.5" Y="7.25" Width="12" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Customizable\CustomizableTableCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.TableSettings">
+    <Position X="0.5" Y="8.25" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIAEAAAAAACAAgAAAgFAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TableSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.TableCreation">
+    <Position X="6.5" Y="9.5" Width="12" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>TableCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.Bordered.BorderCharSet">
+    <Position X="7.75" Y="0.5" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAEAgkok=</HashCode>
+      <FileName>Bordered\BorderCharSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Formatting.Tables.Customizable.LineCharSets">
+    <Position X="4" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAQAAAAAAGAAAACAQAEAAAAAAEAAAA=</HashCode>
+      <FileName>Customizable\LineCharSets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Common.Formatting.Tables.BorderStyle">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAAAAAAQAAAAAAGAAAACAQAEAAAAAAEAAAA=</HashCode>
+      <FileName>BorderStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Common.Formatting.Tables.Customizable.LineKind">
+    <Position X="0.5" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customizable\LineKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>

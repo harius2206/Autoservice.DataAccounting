@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBAE6E2A-B2ED-47B9-8873-EB76101CA7AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Autoservice.Processing</RootNamespace>
+    <AssemblyName>Autoservice.Processing</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converting\CollectionsSetConverting.cs" />
+    <Compile Include="Converting\ModelsConverting.cs" />
+    <Compile Include="Editing\MaintancesEditor.cs" />
+    <Compile Include="Editing\OwnersEditingControllers.cs" />
+    <Compile Include="Editing\OwnersEditor.cs" />
+    <Compile Include="Editing\ServicesEditingController.cs" />
+    <Compile Include="Editing\ServicesEditor.cs" />
+    <Compile Include="Interfaces\IMaintancesEditor.cs" />
+    <Compile Include="Editing\MaintancesEditingController.cs" />
+    <Compile Include="Editing\TransportsEditingControllers.cs" />
+    <Compile Include="Editing\TransportsEditor.cs" />
+    <Compile Include="Interfaces\IMeintancesEditingView.cs" />
+    <Compile Include="Interfaces\IOwnerEditor.cs" />
+    <Compile Include="Interfaces\IOwnersEditingView.cs" />
+    <Compile Include="Interfaces\IServicesEditingView.cs" />
+    <Compile Include="Interfaces\IServicesEditor.cs" />
+    <Compile Include="Interfaces\ITransportsEditingView.cs" />
+    <Compile Include="Interfaces\ITransportsEditor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Autoservice.UI\Autoservice.UI.csproj">
+      <Project>{233e85ca-b28c-4447-8466-dece9c8485d3}</Project>
+      <Name>Autoservice.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Autoservice\Autoservice.csproj">
+      <Project>{8b3d8a7c-0972-4df4-b4c8-9215354b0f5b}</Project>
+      <Name>Autoservice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Data\Common.Data.csproj">
+      <Project>{2fbf9f92-74e3-4033-a4e0-c7ab62fe923d}</Project>
+      <Name>Common.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Processing\Common.Processing.csproj">
+      <Project>{b334980b-faf1-4327-9a5e-4ff2dcf7ee4b}</Project>
+      <Name>Common.Processing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{fa22b174-de08-429c-9685-0524a45018cd}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
